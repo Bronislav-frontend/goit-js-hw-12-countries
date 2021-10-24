@@ -1,0 +1,32 @@
+body {
+  font-family: 'Zen Kurenaido', sans-serif;
+  padding-top: 50px;
+  padding-left: 50px;
+  font-size: 30px;
+  list-style-type: none;
+  background-color: #cef6f5;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.title {
+  font-weight: 800;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.country__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.flag__wrapper {
+  margin-right: 50px;
+}

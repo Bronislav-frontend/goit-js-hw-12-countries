@@ -1,0 +1,24 @@
+{{#each this}}
+<li>
+    <h2 class="wrapper">{{name}}</h2>
+    {{#if capital}}
+        <ul class="country__wrapper">
+            <div class="flag__wrapper">
+                <img src="{{flags.png}}" alt="{{demonym}} flag">
+            </div>
+            <div>
+                <li class="title"> Capital: {{capital}}</li>
+                <li class="title">Population: {{population}}</li>
+                <li>
+                    <p class="title">Languages:</p>
+                    <ul>
+                        {{#each languages}}
+                        <li>{{this.name}}</li>
+                        {{/each}}
+                    </ul>
+                </li>
+            </div> 
+        </ul>
+    {{/if}}
+</li>
+{{/each}}
